@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Godot Mega Man - Peeranut Rumthungsakul's Developer Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.css">
+
+  <script src="https://kit.fontawesome.com/aa055ce723.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Peeranut | Game Developer</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <!-- Project header -->
+    <h1 class="pt-4">Godot Mega Man</h1>
+    <!-- Project date -->
+    <h3 class="text-muted pb-4">Personal Project (2019-2021)</h3>
+    <!-- Embedded Video -->
+    <div class="ratio ratio-16x9 mb-3">
+      <iframe src="https://www.youtube.com/embed/4RSWw5nJSXw" allowfullscreen></iframe>
+    </div>
+    <!-- Project links -->
+    <div class="d-flex flex-row mb-4">
+      <div class="p-2">
+        <button type="button" class="btn btn-primary"
+          onclick="window.open('https://github.com/godot-mega-man/Mega-Man-Engine/tree/v2.0', '_blank')">
+          <i class="fab fa-github"></i> View Source Code on GitHub
+        </button>
+      </div>
+      <div class="p-2">
+        <button type="button" class="btn btn-primary"
+          onclick="window.open('https://drive.google.com/file/d/1GMdlVEijck0-KpyAjV7EBvyIeZICwFah/view?usp=sharing', '_blank')">
+          <i class="fas fa-download"></i> .exe
+        </button>
+      </div>
+    </div>
+    
+
+    <!-- Contents -->
+    <div class="mb-3"></div>
+
+    <p class="lead">Mega man is a side-scrolling platformer game where the player character must fight through the
+      levels using Mega Man’s “Mega Buster”—a cannon attached to his arm—to shoot the robotic enemies inhabiting his
+      environment. The goal is to reach the boss room and defeat the boss to complete the level.</p>
+
+    <p class="lead">Mega Man is one of my first experiment projects I have made in my spare time during the Bachelor's
+      degree in the university. With my curiosity to learn and try things out, platforming genre is the one that draws
+      motivation due to the assets that can be easily found on the internet and the only game that will never go out of
+      the box. This resulted in a Mega Man clone.</p>
+
+    <p class="lead">The most challenging part during the game-making process is the design patterns for each scenario,
+      such as finite state machine for the characters, singleton classes that allow global variables to be stored, etc.
+      Before the game come out as a Mega Man clone, the project was just a simple platformer prototype where the
+      character can only run and jump. As more mechanics are added, the project gets harder to maintain, which
+      encourages me to solve the problems by learning more.</p>
+
+    <p class="lead">My aim for this project is to try and implement things that can be easily expanded or reusable
+      later. However, due to how I was new to Godot engine entirely, the project became difficult to expand as the
+      project grows, which led to too many refactor attempts, as most of the issues were the knowledge base, the project
+      structure management and naming conventions. These led to lessons that allowed me to improve the programming
+      quality, write better, cleaner code and easier ways to maintain the game codes and project. I also learned that
+      this technique can be applied when working with a team, or when someone wants to take a look at the code.
+    </p>
+
+    <div class="alert alert-warning">
+      <h4 class="alert-heading">Disclaimer</h4>
+      <p class="mb-0">Mega Man and all related in this game are the copyrighted property of Capcom. Mega Man is a
+        fan-made game inspired by the Mega Man series. I am not affiliated with Capcom in any way and therefore seeking
+        no profit from this game.</p>
+    </div>
+
+    <h2 class="pt-4">Screenshots</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot85.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot122.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot199.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot222.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot299.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot336.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot490.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot526.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot624.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot733.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot22.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <img src="img/gmme-screenshot30.png" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <hr class="mt-5">
+    <div id="footer" class="container mb-5">
+      <div class="row mb-4">
+        <div class="col-auto"><a href="index.html">Portfolio</a></div>
+        <div class="col-auto"><a href="about.html">About Me</a></div>
+        <div class="col-auto"><a href="contact.html">Contact</a></div>
+        <div class="col"></div>
+        <div class="col-auto"><a href="#top">Back to Top</a></div>
+      </div>
+      <p align="center">Made with care by Peeranut Rumthungsakul in Thailand, Bangkok.</p>
+      <p align="center">
+        Using
+        <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>
+        (based on
+        <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> version 5).
+      </p>
+    </div>
+  </div>
+
+</body>

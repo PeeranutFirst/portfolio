@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MMLV Editor - Peeranut Rumthungsakul's Developer Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
+  
+  <script src="https://kit.fontawesome.com/aa055ce723.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Peeranut | Game Developer</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <!-- Project header -->
+    <h1 class="pt-4">Mega Man Maker Level Editor (MMLV Editor)</h1>
+    <!-- Project date -->
+    <h3 class="text-muted pb-4">Personal Project (2020-2021)</h3>
+    <!-- Embedded Video -->
+    <div class="embed-responsive embed-responsive-16by9 mb-5">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3Zh21vE-naM" allowfullscreen></iframe>
+    </div>
+    <!-- Disclaimer -->
+    <div class="alert alert-dismissible alert-warning">
+      <h4 class="alert-heading">Disclaimer</h4>
+      <p class="mb-0">The video was not made by me. I'm showing this as a reference to demonstrate the overview of my program. </p>
+    </div>
+    <!-- Project links -->
+    <div class="d-flex flex-row">
+      <div class="p-2 mb-2">
+        <button type="button" class="btn btn-primary"
+          onclick="window.open('https://github.com/godot-mega-man/mega-man-maker-mmlv-editor', '_blank')">
+          <i class="fab fa-github"></i> View Source Code on GitHub
+        </button>
+      </div>
+      <div class="p-2 mb-2">
+        <button type="button" class="btn btn-primary"
+          onclick="window.open('https://github.com/godot-mega-man/mega-man-maker-mmlv-editor/releases/latest', '_blank')">
+          <i class="fas fa-download"></i> .exe
+        </button>
+      </div>
+    </div>
+
+    <!-- Contents -->
+    <div class="mb-3"></div>
+
+    <p class="lead">MMLV Editor is an external level editor tool for <a href="https://megamanmaker.com"
+        target="_blank">Mega Man Maker</a>, designed for making existing levels to be more
+      aesthetic and to customize the object properties that the Mega Man Maker can&#39;t do. Its main features are:</p>
+    <ul>
+      <li class="lead">Manual tiling, allowing the user to have more level creation possibilities. In Mega Man Maker,
+        however, uses
+        autotiler that sometimes automatically place the tiles the user don&#39;t want.</li>
+      <li class="lead">Object editing. For example, a 0.111-second delay laser beam which is not possible to change the
+        precision
+        in the actual level builder.
+      </li>
+      <li class="lead">Manual disabling or enabling active screens. Useful for making empty rooms without having to put
+        any object on
+        the screen to activate.</li>
+      <li class="lead">Loads level file faster than the Mega Man Maker. A 500kb file takes only about half a second in
+        MMLV Editor
+        where Mega Man Maker take more than a minute to successfully load a level.</li>
+      <li class="lead">Save/Load level feature. The program also remove unnecessary decimal values when saving a level,
+        resulting in
+        a smaller file size.</li>
+    </ul>
+
+    <!-- FOOTER -->
+    <hr class="mt-5">
+    <div id="footer" class="container mb-5">
+      <div class="row mb-4">
+        <div class="col-auto"><a href="index.html">Portfolio</a></div>
+        <div class="col-auto"><a href="about.html">About Me</a></div>
+        <div class="col-auto"><a href="contact.html">Contact</a></div>
+        <div class="col"></div>
+        <div class="col-auto"><a href="#top">Back to Top</a></div>
+      </div>
+      <p align="center">Made with care by Peeranut Rumthungsakul in Thailand, Bangkok.</p>
+      <p align="center">
+        Using
+        <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>
+        (based on
+        <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> version 4).
+      </p>
+    </div>
+  </div>
+
+</body>
